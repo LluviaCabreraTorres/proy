@@ -1,4 +1,4 @@
-git log ---- muestra todos los commit 
+git log --online ---- muestra todos los commit 
 git config --global user.name "yo"    establecer usuarios y correo de identificación
 git config --global -l verfica que el usuario se ha dado de alta
 git status -- verifica el status del archivo
@@ -6,3 +6,13 @@ git commit -m "agregamos archivo js"
 git log -- muestra todos los commits
 git diff -- hace una comparación entre lo que había antes y lo que hay ahora
 git restore "(nombredelarchivo)" -- resetea todos los cambios que hemos hecho
+git log --oneline -decorate --all observar de mejor manera los commits
+
+git branch nombre -- crea la rama 
+git checkout nombre de la rama --- cambiarse entre ramas
+git branch -m nombre actual nombre nuevo .. renombrar ramas
+git checkout -b nombre actual -- crear rama y activar su uso
+git branch -D nombre rama -- borrar rama 
+git branch -- observar ramas creadas
+git merge nombre de la rama -- fusionar rama definitiva con rama master
+git branch -m nombre actual nombre nuevo de la rama ---- cambiar nombre viejo a nuevo
